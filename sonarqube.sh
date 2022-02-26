@@ -1,11 +1,11 @@
-#/bin/bash
+#!/bin/bash
 
 #Description: This is a script to download sonarqube
 #Author:
-echo "logging in as vagrant user"
-sleep 2 
-su - vagrant
-sleep 2
+
+ 
+
+
 echo "installing java 11"
 sleep 2
 sudo yum update -y
