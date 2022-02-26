@@ -37,6 +37,7 @@ sleep 2
 sudo firewall-cmd --permanent --add-port=9000/tcp
 
 echo "checking ip address"
+sleep 2
 hostname -I | awk '{print$2}'
 
 echo type the above IP address followed by ':9000' as the url
