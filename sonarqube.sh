@@ -22,7 +22,7 @@ sleep 2
 
 echo "Etracting packages"
 sleep 2
-sudo yum install -y
+sudo yum install unzip -y
 sudo unzip /opt/sonarqube-9.3.0.51899.zip
 sleep 2
 
